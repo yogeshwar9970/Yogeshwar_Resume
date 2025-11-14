@@ -1,0 +1,188 @@
+\documentclass[11pt]{article}       
+\usepackage[
+  letterpaper,
+  top=0.3in,
+  bottom=0.4in,
+  left=0.4in,
+  right=0.4in
+]{geometry}
+
+\usepackage{XCharter}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\raggedright
+\pagestyle{empty}
+
+% ensure Unicode text in PDF
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+% Section formatting
+\titleformat{\section}{\bfseries\large}{}{}{}[\titlerule\vspace{-4pt}]
+
+% Bullet formatting
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+\setlist[itemize]{itemsep=-1pt,leftmargin=12pt,topsep=7pt}
+
+%-----------------------------------------------------------
+% Resume Starts
+%-----------------------------------------------------------
+\begin{document}
+%---------- NAME & CONTACT ----------
+\centerline{\Huge \textbf{Yogeshwar Patil}}
+\vspace{4pt}
+\centerline{\Large Sr. Software Engineer}
+\vspace{6pt}
+\centerline{
+\href{mailto:yogeshwarpatil369@gmail.com}{yogeshwarpatil369@gmail.com} \, | \,
+ \href{tel:+919595342495}{+91-9158174349} \, | \,
+  \href{https://linkedin.com/in/yogeshwar-patil-128183252}{linkedin.com/in/yogeshwar-patil-128183252}
+}
+\vspace{-12pt}
+%-----------------------------------------------------------
+\section*{Objective}
+Resourceful individual with 3+ years of hands-on experience in software development in Java, Spring Frameworks, microservices and RESTful APIs, with a proven expertise in integrating databases, transactions and streamlining processes to enhance system performance. Seeking a Software developer role to leverage my technical skills, analytical problem-solving skill and contribute to innovative projects in a dynamic work environment.
+
+\vspace{-12pt} % <-- ADD THIS LINE to reduce the space
+%-----------------------------------------------------------
+
+\section*{Skills}
+\begin{itemize}
+  \item \textbf{Languages / Backend}: Core Java (J2SE), J2EE, SQL Json, XML, 
+  \item \textbf{Technologies \& Frameworks:} REST API, Microservices, Spring Boot, Spring MVC, Spring Cloud, Spring reactive, Hibernate, Spring Data JPA, Spring Security, SpringAI, JUnit, Mockito
+  \item \textbf{Databases}: MySQL, Oracle DB, PostgreSQL, Vector Databases, Cassandra
+  \item \textbf{Tools and Stack}: JIRA, Git, GitLab, Bitbucket, GitHub Copilot, Swagger, Postman, Maven, Gradle, Kibana, AWS, EC2, CI/CD, Jenkins, Docker, Kubernetes, Apache Kafka, Zookeeper, GitBash, Linux, Unix, Kibana, Grafana
+  \item \textbf{Others}: Object-Oriented Programming (OOP), Java 8, SteamAPI, Multithreading, SDLC, Agile/ScrumMicroservices, WebSockets, Unit and Integration Testing
+\end{itemize}
+\vspace{-24pt} % <-- ADD THIS LINE to reduce the space
+%-----------------------------------------------------------
+
+\section*{Experience}
+\textbf{Infosys Ltd} — Pune, India \\
+\textbf{Senior Associate Consultant} \hfill Jan 2023 -- Present
+\vspace{-4pt}
+\begin{itemize}
+  \item Responsible for growing and enhancing multi-tier web applications by developing, testing, and maintaining microservices following best practices, Ensuring client satisfaction by maintaining bug-free applications using Agile methodology.
+  \item Writing clean, efficient, well-tested code with proper peer reviews. Collaborating with teams to understand requirements and deliver updates.
+  \item Actively participated in peer code reviews and design sessions with senior developers and architects, reducing merge request rework and ensuring smoother handoffs to QA and deployment teams.
+  \item Involved the migration of legacy systems to NSA architecture, enhancing scalability and performance.
+  \item Utilized Spring Boot and Spring Boot reactive frameworks to optimize data transactions and improve project flow. Integrated Cassandra for robust database handling, establishing efficient read and write operations within the system.
+ \item Contributed to the Billing Domain, overseeing data consolidation and facilitating seamless integration with front-end systems.
+ \item Implemented new features and product in the cart domain, including dynamic updates and instant bill previews, improving customer
+experience.
+
+\item  Collaborated with product owners, QA, and architects in Agile/Scrum ceremonies to refine requirements and deliver robust, high-quality implementations, improving delivery predictability and stakeholder satisfaction.
+
+\item Actively participated in Agile ceremonies (sprint planning, retrospectives, and client demos), contributing to on-time sprint completion.
+  
+\end{itemize}
+\vspace{-22pt} % <-- ADD THIS LINE to reduce the space
+%-----------------------------------------------------------
+
+\section{Project Name: VBG-NSA ShoopingCart \ \ \ \ \ Client: Verizon  \ \ \ \ \ Domain: Telecom E-commerce}
+\textbf{Senior Associate Consultant} \hfill Sept 2025 -- Present
+\begin{itemize}
+
+\item Implemented new product functionality end-to-end in the update-cart endpoint through clean layering and focused backend changes using Java 8/17, Spring Boot, Spring Data JPA, and Spring Reactive, improving code modularity and maintainability.
+\item Added safe rollout controls with feature-flag gating, enabling instant turn OFF of new flows during critical releases and reducing emergency rollback incidents.
+
+\item Wrote comprehensive unit test cases using JUnit and Mockito, maintaining over 95\% code coverage for newly added modules and minimizing post-release defects.
+
+\item Resolved SonarQube violations and implemented peer review feedback, achieving ~95\% code quality compliance.
+
+\item Built and deployed services across non-prod and prod environments via Jenkins and GitLab CI, achieving a ~99\% deployment success rate.
+
+\item Performed API validation and coordinated integration testing in beta(non-prod) environments using Postman and Kibana, identifying regressions early.
+
+\end{itemize}
+\vspace{-18pt} % <-- ADD THIS LINE to reduce the space
+%--------------------------------------------------------------
+\section{Project Name: Next Bill Summary Client: Verizon USA Domain: Telecom- e- commerce Billing System}
+\textbf{Associate Engineer} \hfill{Aug 2023 -- Oct 2024}
+\begin{itemize}
+\item  Developed and maintained billing microservices within Verizon’s eCommerce backend platform, implementing code changes as per business requirements logic to support millions of postpaid and enterprise customers.
+
+\item Optimized SQL queries and JPA/JDBC calls to speed up billing calculations and reduce latency for large billing workloads.
+
+\item Developed secure and stateless RESTful APIs using Spring Boot and JWT-based Spring Security, ensuring safe inter-service communication and authentication.
+
+\item Improved code efficiency and maintainability using Java 8 Streams, Lambdas, and Functional Interfaces, reducing boilerplate code and improving readability across complex billing logic modules.
+
+\item Ensured production-grade code quality by conducting SonarQube analysis (95\% issue resolution rate) and maintaining strong JUnit/Mockito test coverage, ensuring defect-free production deployments.
+
+\item Deployed microservices on hybrid infrastructure (AWS EC2 + on-prem), achieving 99.9\% uptime while adhering to strict telecom-grade data security and compliance policies. Collaborated cross-functional teams for testing, deployments. 
+
+\item \textbf{Tech Stack:} Java 8, Spring Boot, Spring Data JPA, Spring Security (JWT), Kafka, Redis, Oracle DB, Cassandra, JUnit, Mockito, Jenkins, Docker, Tomcat, AWS EC2, Git, SonarQube coverage, Agile/Scrum
+
+\end{itemize}
+
+%-----------------------------------------------------------------
+\vspace{-18pt}
+\section{Project Name: Nokia FlowOne (IL 9) OSS/BSS Transformation \quad Client: StarHub Singapore \\ Domain: Telecom-Networking}
+\textbf{Application Delivery Engineer} \hfill{Jan 2023 -- June 2023}
+
+\begin{itemize}
+\item Reverse-engineered Java modules by decompiling class files and debugging defects using Intellije Idea improving defect resolution efficiency.
+
+\item Supported end-to-end FlowOne environment validations (SIT, UAT, PROD) on Linux/Unix, achieving 99.9\% environment uptime and reliable release consistency.
+
+\item Performed service life cycle operations and connectivity with other external OSS/BSS systems (start/stop, health checks, log analysis) using Shell scripts.
+
+\item Diagnosed and resolved L3 application incident using IL9 GUI and log analysis across Oracle DB, middleware, and FlowOne components. Handled a critical P1 production outage — coordinated failover with DBA teams, executed recovery.
+
+\item Participated in Disaster Recovery drills, validating RTO/RPO objectives via failover simulations, improving system recovery readiness.
+
+\item\textbf{Tech Stack}: Java, Spring Boot, Linux/Unix, Oracle DB, Shell Scripting, Jenkins, Git, Ansible, WinSCP, REST APIs, FlowOne (Comptel IL9), Networking & Firewall Fundamentals
+  
+\end{itemize}
+
+%-----------------------------------------------------------
+\vspace{-22pt}
+\section*{Education}
+\textbf{Bachelor of Engineering} — Dr. D.Y. Patil School of Engineering Academy, Pune  
+\textit{Graduated May 2020}  
+\begin{itemize}
+  \item Completed with 7.25 SGPA.
+\end{itemize}
+
+%-----------------------------------------------------------
+\vspace{-22pt}
+\section*{Certifications}
+\begin{itemize}
+  \item Full Stack Java Developer Certification
+\end{itemize}
+
+%-----------------------------------------------------------
+\vspace{-22pt}
+\section*{Strengths}
+\begin{itemize}
+  \item Continuous learner with strong technology adoption capability.
+  \item Active listener and fast learner with strong interpersonal skills.
+  \item Ability to handle multiple tasks efficiently.
+  \item Strong collaboration skills in distributed environments.
+  \item Excellent written and verbal communication.
+  \item Experience with CI/CD and Jenkins automation.
+  \item Proficient in JSON/XML processing and Git/GitBash.
+\end{itemize}
+
+%-----------------------------------------------------------
+\vspace{-22pt}
+\section*{Achievements \& Activities}
+\begin{itemize}
+  \item Received multiple appreciations for proactive contributions.
+  \item Winner of Inter College Volleyball Championship.
+\end{itemize}
+
+%-----------------------------------------------------------
+\vspace{-22pt}
+\section*{Interests}
+\begin{itemize}
+  \item Playing Cricket
+  \item Reading Blogs
+  \item Trekking
+\end{itemize}
+
+\end{document}
